@@ -9,7 +9,7 @@ public class Triangle extends NamedShape {
 
   public Triangle(
       String name, double base, double height, double side1, double side2, double side3) {
-    super(name);
+    super(null);
     this.base = base;
     this.height = height;
     this.side1 = side1;

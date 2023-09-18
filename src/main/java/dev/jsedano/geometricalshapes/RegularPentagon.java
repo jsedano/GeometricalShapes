@@ -4,7 +4,7 @@ public class RegularPentagon extends NamedShape {
   private double side;
 
   public RegularPentagon(String name, double side) {
-    super(name);
+    super(null);
     this.side = side;
   }
 

@@ -5,10 +5,12 @@ public class Ellipse extends NamedShape {
   private double semiMinorAxis;
 
   public Ellipse(String name, double semiMajorAxis, double semiMinorAxis) {
-    super(name);
+    super(null);
     this.semiMajorAxis = semiMajorAxis;
     this.semiMinorAxis = semiMinorAxis;
   }
+
+
 
   @Override
   public double calculateArea() {

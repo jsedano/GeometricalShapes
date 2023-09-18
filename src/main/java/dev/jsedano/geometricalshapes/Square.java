@@ -4,7 +4,7 @@ public class Square extends NamedShape {
   private double side;
 
   public Square(String name, double side) {
-    super(name);
+    super(ShapeEnum.SQUARE);
     this.side = side;
   }
 

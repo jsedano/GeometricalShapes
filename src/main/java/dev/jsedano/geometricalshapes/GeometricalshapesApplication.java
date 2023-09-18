@@ -11,14 +11,14 @@ public class GeometricalshapesApplication {
 
   public static void main(String[] args) {
     Circle circle = new Circle("Circle", 5.0);
-    Rectangle rectangle = new Rectangle("Rectangle", 4.0, 6.0);
+    //Rectangle rectangle = new Rectangle("Rectangle", 4.0, 6.0);
     Triangle triangle = new Triangle("Triangle", 3.0, 4.0, 5.0, 4.0, 3.0);
     Square square = new Square("Square", 4.0);
     Ellipse ellipse = new Ellipse("Ellipse", 5.0, 3.0);
     RegularPentagon pentagon = new RegularPentagon("Pentagon", 6.0);
 
     printShapeDetails(circle);
-    printShapeDetails(rectangle);
+    //printShapeDetails(rectangle);
     printShapeDetails(triangle);
     printShapeDetails(square);
     printShapeDetails(ellipse);

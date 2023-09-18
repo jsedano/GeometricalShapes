@@ -1,13 +1,13 @@
 package dev.jsedano.geometricalshapes;
 
 public abstract class NamedShape implements Shape {
-  protected String name;
+  protected ShapeEnum name;
 
-  public NamedShape(String name) {
+  public NamedShape(ShapeEnum name) {
     this.name = name;
   }
 
-  public String getName() {
+  public ShapeEnum getName() {
     return name;
   }
 

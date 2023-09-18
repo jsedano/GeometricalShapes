@@ -4,7 +4,7 @@ public class Circle extends NamedShape {
   private double radius;
 
   public Circle(String name, double radius) {
-    super(name);
+    super(null);
     this.radius = radius;
   }
 
